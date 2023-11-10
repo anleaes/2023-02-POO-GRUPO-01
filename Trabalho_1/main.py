@@ -17,6 +17,7 @@ def main():
     contratante.exibirDados()
     print("-----------------------------------------")
     aluno.exibirDados()
+    
 
 
 if __name__ == "__main__":
