@@ -6,7 +6,7 @@ from pessoa_juridica import PessoaJuridica
 def main():
 
     curso = Curso('Curso de Python POO', 100)
-    aluno1 = PessoaFisica('Nome do aluno', 'teste@teste.com', )
+    aluno1 = PessoaFisica('Nome do aluno', 'Rua A, 123', '000.000.000-00', '01/01/2000')
     
     matricula = Matricula.criarMatricula('123', '09/11/2023', curso, aluno1)
 
