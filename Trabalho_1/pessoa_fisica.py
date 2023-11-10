@@ -8,4 +8,4 @@ class PessoaFisica(Pessoa):
         self._data_nascimento = data_nascimento
         
     def exibirDados(self):
-        print(f"Pessoa Física\n{self._nome}")
+        print(f"Pessoa Física\n{self._nome} - {self._cpf}")
