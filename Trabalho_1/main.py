@@ -11,8 +11,11 @@ def main():
     
     matricula = Matricula('123', '09/11/2023', curso, aluno, contratante)
 
+    print("-----------------------------------------")
     matricula.exibirMatricula()
+    print("-----------------------------------------")
     contratante.exibirDados()
+    print("-----------------------------------------")
     aluno.exibirDados()
 
 
