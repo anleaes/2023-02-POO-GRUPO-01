@@ -1,8 +1,16 @@
+from matricula import Matricula
 from curso import Curso
 from pessoa_fisica import PessoaFisica
 from pessoa_juridica import PessoaJuridica
 
 def main():
+
+    curso = Curso('Curso de Python POO', 100)
+    aluno1 = PessoaFisica('Nome do aluno', 'Rua A, 123', '000.000.000-00', '01/01/2000')
+    
+    matricula = Matricula.criarMatricula('123', '09/11/2023', curso, aluno1)
+
+
 
     pf1 = PessoaFisica('Pessoa fisica 1', 'teste1@teste.com', '1', 'Rua A, 1000', '000.000.000-00', '01/01/2001')
     pf2 = PessoaFisica('Pessoa fisica 2', 'teste2@teste.com', '2', 'Rua B, 500', '000.000.000-00', '10/05/2005')
