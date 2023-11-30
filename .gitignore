@@ -1,4 +1,3 @@
-db.sqlite3
-modeloapp/__pycache__/*
-/apps/categories/__pycache__/*
-/apps/categories/migrations/*
+/projetoapp/projetoapp/__pycache__/*
+/projetosapp/apps/categories/__pycache__/*
+/projetosapp/apps/categories/migrations/*
