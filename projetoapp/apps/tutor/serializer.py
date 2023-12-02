@@ -1,7 +1,7 @@
 from .models import Tutor
 from rest_framework import serializers
 
-class CategorySerializer(serializers.ModelSerializer):
+class TutorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Tutor
         fields = '__all__'
