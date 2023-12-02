@@ -9,9 +9,9 @@ class Tutor(models.Model):
     email = models.TextField('Email', max_length=100)
     
     class Meta:
-        verbose_name = 'Categoria'
-        verbose_name_plural = 'Categorias'
+        verbose_name = 'Tutor'
+        verbose_name_plural = 'Tutores'
         ordering =['id']
 
     def __str__(self):
-        return self.name
+        return self.nome
