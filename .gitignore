@@ -1,3 +1,5 @@
 /projetoapp/projetoapp/__pycache__/*
 /projetoapp/apps/tutor/__pycache__/*
 /projetoapp/apps/tutor/migrations/*
+/projetoapp/apps/ong/__pycache__/*
+/projetoapp/apps/ong/migrations/*

@@ -5,6 +5,6 @@ from .serializer import OngSerializer
 
 # Create your views here.
 
-class CategoryViewSet(viewsets.ModelViewSet):
+class OngViewSet(viewsets.ModelViewSet):
     queryset = Ong.objects.all()
     serializer_class = OngSerializer  
