@@ -4,4 +4,4 @@ from django.apps import AppConfig
 class EspecieConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'especie'
-    verbose_name = 'Especies'
+    verbose_name = 'especies'
