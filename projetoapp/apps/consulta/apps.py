@@ -1,7 +1,7 @@
 from django.apps import AppConfig
 
 
-class EspecieConfig(AppConfig):
+class ConsultaConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'especie'
-    verbose_name = 'Especies'
+    name = 'consulta'
+    verbose_name = 'Consultas'

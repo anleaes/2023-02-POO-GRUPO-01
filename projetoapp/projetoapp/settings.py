@@ -44,6 +44,12 @@ INSTALLED_APPS = [
     'rest_framework',
     'tutor.apps.TutorConfig',
     'ong.apps.OngConfig',
+    'especie.apps.EspecieConfig',
+    'raca.apps.RacaConfig',
+    'animal.apps.AnimalConfig',
+    'adocao.apps.AdocaoConfig',
+    'veterinario.apps.VeterinarioConfig',
+    'consulta.apps.ConsultaConfig',
 ]
 
 MIDDLEWARE = [

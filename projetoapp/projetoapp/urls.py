@@ -18,6 +18,12 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('tutores/', include('tutor.urls', namespace='tutor')),
     path('ongs/', include('ong.urls', namespace='ong')),
+    path('tutores/', include('tutor.urls', namespace='tutor')),
+    path('especies/', include('especie.urls', namespace='especie')),
+    path('racas/', include('raca.urls', namespace='raca')),
+    path('animais/', include('animal.urls', namespace='animal')),
+    path('adocoes/', include('adocao.urls', namespace='adocao')),
+    path('veterinarios/', include('veterinario.urls', namespace='veterinario')),
+    path('consultas/', include('consulta.urls', namespace='consulta')),
 ]

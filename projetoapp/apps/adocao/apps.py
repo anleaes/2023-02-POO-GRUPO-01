@@ -1,7 +1,7 @@
 from django.apps import AppConfig
 
 
-class EspecieConfig(AppConfig):
+class AdocaoConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'especie'
-    verbose_name = 'Especies'
+    name = 'adocao'
+    verbose_name = 'Adocoes'

@@ -5,12 +5,12 @@ from django.db import models
 class Raca(models.Model):
     nome = models.CharField('Nome', max_length=50)
     descricao = models.TextField('Descricao', max_length=100)
-    porte = models.CharField('Porte', max_length=14)
+    porte = models.TextField('Porte', max_length=100)
     
     
     class Meta:
         verbose_name = 'raca'
-        verbose_name_plural = 'racas'
+        verbose_name_plural = 'Racas'
         ordering =['id']
 
     def __str__(self):

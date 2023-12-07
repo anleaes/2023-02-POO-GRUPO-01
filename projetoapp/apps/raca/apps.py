@@ -4,4 +4,4 @@ from django.apps import AppConfig
 class RacaConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'raca'
-    verbose_name = 'racas'
+    verbose_name = 'Racas'
